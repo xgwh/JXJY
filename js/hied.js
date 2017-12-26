@@ -1,0 +1,30 @@
+$("document").ready(function aa(){
+	if(parseInt($(".hide").parents("ul").css("width"))<925){
+	$(".show").show();
+	$(".hide").hide();
+	}else{
+	$(".show").hide();
+	$(".hide").show();
+	}
+	e=setTimeout(aa,0);
+});
+$("document").ready(function(){
+	if(parseInt($(".hide").parents("ul").css("width"))<925){
+	$(".show").click(function(){
+		$(".show").parent("ul").find(".hide").toggle();
+		clearTimeout(e);
+	});
+	}else{
+		$(".show").hide();
+		$(".hide").show();
+	}
+});
+$("document").ready(function bb(){
+	if(parseInt($(".hide").parents("ul").css("width"))>925){
+	$(".show").hide();
+	$(".hide").show();
+	}else{
+		$(".show").show();
+	}
+	setTimeout(bb,0);
+});

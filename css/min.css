@@ -1,0 +1,135 @@
+@charset "utf-8";
+.hide{display: none;}
+.show{display:block; width:100%; text-align:center; color: red; cursor: pointer;}
+.container .nav li a{font-size:0.2em; transition:all 0.3s ease 0.3s; font-family: "microsoft yahei"; color: #fff; display: block;}
+body span a{font-size:0.2em; font-weight:bold; transition:all 0.3s ease 0.3s; font-family: "microsoft yahei"; color: #fff; display: block;}
+.no{height:0px;}
+.zuopin ul li article{display: none;}
+	.container header nav{
+		display: none;
+	}
+	
+	.container header{
+		 background:#333333;
+		width:100%;
+		position: relative;
+	}
+	.container header .logo{
+		width: 13.84375%;
+		float: left;
+		padding-top:2%;
+		padding-right:1%;
+		padding-left:5%;
+	}
+	.container header .logo img{min-width:80px;}
+	.container header .design{
+		display: block;
+		color: #fff;
+		font-size:3em; 
+		font-weight: bold;
+		padding-top:1%;
+		text-align:right;
+		padding-left:18%;
+		float:left;
+	}
+	.container .pop_menu{
+		display: block;
+		padding-top:3%;
+		width: 8%;
+		height:10%;
+		float: right;
+		cursor: pointer;
+		z-index: 999;
+		margin-right:5%;
+	}
+	
+	.container .nav{
+		margin-top:0px;
+		z-index: 999;
+		width:100%;
+	}
+	.container .nav li{
+		width:25%;
+		text-align: center;
+		float:left;
+		z-index:999;
+		padding:1% 0px;
+		transition: all 0.3s ease 0.3s;
+	}
+	.ul{
+		margin:0px auto; z-index: 999; background:rgba(0,0,0,0.5);
+		}
+	.container .nav li:hover{ 
+		background:#ccc;
+	}
+	.container .nav li:hover a{color:#000;}
+	h2{width:100%; height:42px; font-size:16px; line-height:42px; font-weight:bold;}
+	h2>a:nth-of-type(2){font-size:0.1em;}
+	.fuwu{width:95%;}
+	.fuwu ul li{ width:25%; float:left; height:90px; font-size:0px; color:#8c8281; line-height:1.5em;}
+	.fuwu ul li span{font-size:2em; display:none; color:#211425;}
+	.fuwu ul li a{display:block; width:43%;height:55%; margin:0px auto;}
+	.fuwu ul li a img{width:100%;}
+.kecheng{width:95%; margin:0px auto;}
+.kecheng ul{width:99%;}
+.kecheng ul li article{display:none;}
+.kecheng ul li{width:33.333%;  transition: all 0.3s ease 0.3s; float:left; position: relative;}
+.kecheng ul li img{width:100%; }
+.kecheng ul li:nth-of-type(4),
+.kecheng ul li:nth-of-type(7){clear: both;}
+.fengcai{width:95%; margin:0px auto;}
+.fengcai ul li{width:49%; float:left; margin-left:2%; font-size:1.2em; color:#fff;}
+.fengcai ul li:nth-of-type(3),
+.fengcai ul li:nth-of-type(5){clear: both;}
+.fengcai ul li:nth-of-type(1),
+.fengcai ul li:nth-of-type(3),
+.fengcai ul li:nth-of-type(5){margin-left:0px;}
+.fuwu ul li:nth-of-type(2) img{width:80%; margin:0px auto; display:block;}
+.fengcai ul li a{display:block;width:80%; padding-left:10%; overflow: hidden; text-overflow:clip; font-weight:100; font-size:1.8em; height:25px; line-height:25px; color:#272f3c;}
+.fengcai ul li a:hover{color:#FA9634;}
+.xuezi li article{display:none;}
+.zuopin{width:95%; margin:0px auto;}
+.zuopin ul li{width:29.333%; margin-left:6%; margin-bottom:5%; float:left; transition: all 0.3s ease 0.3s;}
+.zuopin ul li:nth-of-type(19){padding-left:16.5%;}
+.zuopin ul li:nth-of-type(1),
+.zuopin ul li:nth-of-type(4),
+.zuopin ul li:nth-of-type(7),
+.zuopin ul li:nth-of-type(10),
+.zuopin ul li:nth-of-type(13),
+.zuopin ul li:nth-of-type(16){margin-left:0px;}
+.zuopin ul li a img{display:block; width:100%; height:100%; opacity: 0.8;}
+.zuopin ul li:hover img{opacity: 1;}
+.xuezi{width:95%; margin:0px auto;}
+.xuezi ul li{width:33.33%;  float:left;  float:left;}
+.xuezi ul li:nth-of-type(7){clear: both;}
+.xuezi ul li img{display:block; width:100%; opacity: 0.8;}
+.xuezi ul li:hover img{opacity:1;}
+.xuezi ul li:nth-of-type(1),
+.xuezi ul li:nth-of-type(4),
+.xuezi ul li:nth-of-type(7),
+.xuezi ul li:nth-of-type(10){margin-left:0px;}
+.jiuye {width:95%; margin:0px auto;}
+.jiuye ul li{width:33.13333%; margin-right:0.2%; float:left;}
+footer{width:95%; margin:0px auto;}
+footer ul li{width:100%; float:left;   line-height:32px; font-size:12px; text-align:left;}
+.bx-wrapper .bx-pager.bx-default-pager a{width:30px; height:3px;}
+@media only screen and (max-width:400px) {
+	.container .nav{
+		margin-top:0px;
+		z-index: 999;
+		width:100%;
+	}
+	.container .nav li{
+		width:25%;
+		text-align: center;
+		float:left;
+		z-index:999;
+		padding:1% 0px;
+	}
+	.ul{
+		margin:0px auto; z-index: 999; background:rgba(0,0,0,0.5);
+		}
+	.container .nav li:hover{ 
+		background:#ccc;
+	}
+}

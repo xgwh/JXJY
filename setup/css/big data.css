@@ -1,0 +1,4 @@
+@charset "utf-8";
+.setup ul li:nth-of-type(3){border-bottom:4px solid #fa9634;}
+.setup ul li:nth-of-type(3) img:nth-of-type(1){display:none;}
+.setup ul li:nth-of-type(3) img:nth-of-type(2){display:block; transition: all 0.3s ease 0.3s;}

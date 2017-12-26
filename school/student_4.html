@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title>响应式网站开发</title>
+		<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<!--[if lt IE 9]>
+			<script src="html5.js"></script>
+			<script src="respond.js"></script>
+		<![endif]-->
+		<link rel="stylesheet" href="../css/base.css" type="text/css" />
+		<link rel="stylesheet" href="../css/index.css" type="text/css" />
+		<link rel="stylesheet" href="../css/jquery.bxslider.css" type="text/css" />
+		<link rel="stylesheet" type="text/css" href="../css/school.css" />
+		<link rel="stylesheet" type="text/css" href="../css/max.css" media="screen and (min-width:1000px)" />
+		<link rel="stylesheet" type="text/css" href="../css/min.css" media="screen and (max-width:700px)" />
+		<link rel="stylesheet" type="text/css" href="../css/min-max.css" media="screen and (min-width:700px)and (max-width:1000px)" />
+		<meta content="telephone=no,email=no" name="format-detection" />
+		<script type="text/javascript" src="../js/jquery.js"></script>
+		<script type="text/javascript" src="../js/common.js"></script>
+		<script type="text/javascript" src="../js/jquery.bxslider.js"></script>
+	</head>
+
+	<body>
+		<div class="container clearfix">
+			<header class="header-box">
+				<header class="clearfix">
+					<div class="logo">
+						<img src="../img/logo.jpg" /></a>
+					</div>
+					<nav>
+						<ul class="clearfix">
+							<li><a href="../index.html">首页</a></li>
+							<li><a href="../survey.html">学校概况</a></li>
+							<li><a href="../setup/ambient.html">课程设置</a></li>
+							<li><a href="../school/student.html">校园风采</a></li>
+							<li><a href="../index.html#zuopin">学员作品</a></li>
+							<li><a href="../teacher/index.html">师资力量</a></li>
+							<li><a href="../serve/serve.html">学员服务</a></li>
+							<li><a href="../contact/index.html">联系我们</a></li>
+						</ul>
+					</nav>
+					<div class="design none">
+						景秀教育官网
+					</div>
+					<div class="pop_menu none clearfix" id="menu-click">
+						<img src="../img/img_03.jpg" />
+					</div>
+					<div class="nav none" id="menu-total">
+						<ul class="ul clearfix">
+							<li><a href="../index.html">首页</a></li>
+							<li><a href="../survey.html">学校概况</a></li>
+							<li><a href="../setup/ambient.html">课程设置</a></li>
+							<li><a href="../school/student.html">校园风采</a></li>
+							<li><a href="../index.html#zuopin">学员作品</a></li>
+							<li><a href="../teacher/index.html">师资力量</a></li>
+							<li><a href="../serve/serve.html">学员服务</a></li>
+							<li><a href="../contact/index.html">联系我们</a></li>
+						</ul>
+					</div>
+				</header>
+			</header>
+			<div class="no"></div>
+			<div class="setup clearfix" id="setup">
+				<aside>
+					<ul class="clearfix">
+						<li><a href="student.html">新生军训</a></li>
+						<li><a href="student_1.html">环艺实习<span>基地</span></a></li>
+						<li><a href="student_2.html">趣味活动</a></li>
+						<li><a href="student_3.html">大学生实<span>训</span></a></li>
+						<li style="border-bottom:4px solid #fa9634;"><a href="student_4.html">观看话剧<span>表演</span></a></li>
+						<li><a href="student_5.html">圣诞晚会</a></li>
+					</ul>
+				</aside>
+				<section id="section_1">
+					<div id="big">
+					</div>
+					<ul id="petty">
+						<li></li>
+						<li></li>
+						<li></li>
+						<li></li>
+						<li></li>
+					</ul>
+					<p>对于美的理解,更多的认为是人的价值观取向,如果缺乏正确的价值观的引领,大学生的对审美情趣就会趋于低俗化,这也是目前大学生对存在的问题,因此,引导和提升大学生的审美情趣和思想境界,是当前教育工作者的首要关注的。戏剧中话剧的题材采选更为丰富,在表演的新颖方式上更为标新立异。因此其学习者的接受面也在扩散,带给受众的影响是很大的,可以从很大程度上促进高校校园文化活动质量的提高。</p>
+				</section>
+				<script type="text/javascript">
+				var big = document.getElementById('big');
+				var petty = document.getElementById('petty');
+				var pli = petty.getElementsByTagName('li');
+				pli[0].style.background = 'url(../img/gkhjby_1.jpg) no-repeat';
+				pli[0].style.backgroundSize = '100% 100%';
+				pli[1].style.background = 'url(../img/gkhjby_2.jpg) no-repeat';
+				pli[1].style.backgroundSize = '100% 100%';
+				pli[2].style.background = 'url(../img/gkhjby_3.jpg) no-repeat';
+				pli[2].style.backgroundSize = '100% 100%';
+				pli[3].style.background = 'url(../img/gkhjby_4.jpg) no-repeat';
+				pli[3].style.backgroundSize = '100% 100%';
+				pli[4].style.background = 'url(../img/gkhjby_5.jpg) no-repeat';
+				pli[4].style.backgroundSize = '100% 100%';
+				for (var i = 0; i < pli.length; i++) {
+					pli[i].onclick = btn;
+					pli[i].style.opacity = '0.8';
+				}
+				
+				function btn() {
+					big.style.background = this.style.background;
+					this.style.border = '1px solid blue';
+				}
+				var d = 0;
+				window.onload = function jishi() {
+					d++;
+					if (d < pli.length) {
+						big.style.background = pli[d].style.background;
+						big.style.backgroundSize='100% 100%';
+						pli[d].style.border = '1px solid blue';
+					} else if (d == pli.length) {
+						d = 0;
+						big.style.background = pli[d ].style.background;
+					}
+					setTimeout(jishi, 2000);
+				}
+				</script>
+			</div>
+
+			<footer class="footer-box">
+				<footer>
+					<ul class="clearfix">
+						<li>
+							<a name="lianxi"></a>咨询电话：010-58447031<br />010-58447030 </li>
+						<li>咨询邮箱：bjjxkj@126.com<br />Moblie:15321575023 </li>
+						<li>咨询QQ：1718693915<br />1019959019<br />138259017 </li>
+						<li> 学院网址：http://www.zgcxueyuan.com<br /> 学院地址：中关村学院二分院（北京市海淀区中关村环保科技园温阳路170号)</li>
+					</ul>
+				</footer>
+			</footer>
+			<script type="text/javascript">
+				$(document).ready(function() {
+					$('.slider7').bxSlider({
+						slideWidth: 140000,
+						infiniteLoop: false,
+						hideControlOnEnd: true,
+						slideMargin: 0
+					});
+				});
+			</script>
+		</div>
+	</body>
+
+</html>

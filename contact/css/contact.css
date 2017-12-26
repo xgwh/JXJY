@@ -1,0 +1,27 @@
+
+.box{width:1000px; margin:0px auto; padding-top:40px; padding-bottom:100px;}
+.box h4{font-size:18px; text-align:center; color:#fa9634; line-height:50px; font-weight:bold;}
+.box h3{font-size:22px; font-weight:bold; text-align:center; line-height:36px;}
+.box p{font-size:16px; line-height:36px; text-align:center;}
+.box img{display:block; width:66.9%; margin:0px auto;}
+@media only screen and (min-width:720px) and (max-width:1000px) {
+.box{width:95%; margin:0px auto; padding-top:40px; padding-bottom:100px;}
+.box h4{font-size:18px; text-align:center; color:#fa9634; line-height:50px; font-weight:bold;}
+.box h3{font-size:22px; font-weight:bold; text-align:center; line-height:36px;}
+.box p{font-size:16px; line-height:36px; text-align:center;}	
+.box img{display:block; width:100%; margin:0px auto;}
+}
+@media only screen and (min-width:480px) and (max-width:720px) {
+.box{width:95%; margin:0px auto; padding-top:40px; padding-bottom:100px;}
+.box h4{font-size:18px; text-align:center; color:#fa9634; line-height:50px; font-weight:bold;}
+.box h3{font-size:22px; font-weight:bold; text-align:center; line-height:36px;}
+.box p{font-size:16px; line-height:36px; text-align:center;}
+.box img{display:block; width:100%; margin:0px auto;}
+}
+@media only screen and (max-width:480px) {
+.box{width:95%; margin:0px auto; padding-top:40px; padding-bottom:100px;}
+.box h4{font-size:18px; text-align:center; color:#fa9634; line-height:50px; font-weight:bold;}
+.box h3{font-size:22px; font-weight:bold; text-align:center; line-height:36px;}
+.box p{font-size:16px; line-height:36px; text-align:center;}
+.box img{display:block; width:100%; margin:0px auto;}
+}

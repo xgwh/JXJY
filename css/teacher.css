@@ -1,0 +1,60 @@
+@charset "utf-8";
+.box{width:1000px; margin:0px auto; padding-top:40px; padding-bottom:100px;}
+.box h4{font-size:30px; text-align:center; font-weight:bold;}
+.box>p{font-size:24px; text-align:center; color:#888; margin-top:19px; margin-bottom:57px;}
+.box>ul{margin:0px auto;}
+.box>ul li{ width:220px; height:810px; font-size:14px; color:#888; float:left; margin-left:40px;}
+.box>ul li:nth-of-type(5),
+.box>ul li:nth-of-type(9),
+.box>ul li:first-of-type{margin-left:0px;}
+.box>ul li p{text-indent:28px; line-height:24px; text-align: justify; margin-top:16px;}
+.box>ul li span{display:block;}
+.box>ul li span:first-of-type{font-size:18px; font-weight:bold; margin-top:7px;}
+.teacher{display:none;}
+@media only screen and (min-width:720px) and (max-width:1000px) {
+.box{width:95%; margin:0px auto; padding-top:40px; padding-bottom:100px;}
+.box h4{font-size:30px; text-align:center; font-weight:bold;}
+.box>p{font-size:24px; text-align:center; color:#888; margin-top:19px; margin-bottom:57px;}
+.box>ul{margin:0px auto; width:100%;}
+.box>ul li{width:24%; height:none; line-height:24px; color:#888; float:left; margin-left:1%;}
+.box>ul li:nth-of-type(5),
+.box>ul li:nth-of-type(9),
+.box>ul li:first-of-type{margin-left:0px;}
+.box>ul li p{text-indent:28px; font-size:14px; line-height:24px; margin-top:16px;}
+.box>ul li span{display:block; width:100%; font-size:14px;}
+.box>ul li span:first-of-type{font-size:18px; font-weight:bold; margin-top:7px;}	
+}
+@media only screen and (min-width:480px) and (max-width:720px) {
+.box{width:95%; margin:0px auto; padding-top:40px; padding-bottom:100px;}
+.box h4{font-size:30px; text-align:center; font-weight:bold;}
+.box>p{font-size:24px; text-align:center; color:#888; margin-top:19px; margin-bottom:57px;}
+.box>ul{margin:0px auto; width:100%;}
+.box>ul li{width:33%; cursor: pointer; height:100%; line-height:24px; color:#888; float:left; margin-left:0.333%;}
+.box>ul li:nth-of-type(10),
+.box>ul li:nth-of-type(7),
+.box>ul li:nth-of-type(4),
+.box>ul li:first-of-type{margin-left:0px;}
+.box>ul li p{text-indent:28px; font-size:14px; line-height:24px; margin-top:16px;}
+.box>ul li span{display:block; width:100%; font-size:14px;}
+.box>ul li span:first-of-type{font-size:18px; font-weight:bold; margin-top:7px;}
+.box>ul li .teacher{position:fixed;width:100%;line-height:22px;  color:#000; top:30%; left:0px; line-height:12px; background:rgba(255,255,255,0.8); z-index: 999; display:none;}	
+.box>ul li .teacher span,
+.box>ul li .teacher p{line-height:22px;}	
+.box>ul li>span,
+.box>ul li>p{display:none;}
+}
+@media only screen and (max-width:480px) {
+.box{width:95%; margin:0px auto; padding-top:40px; padding-bottom:100px;}
+.box h4{font-size:30px; text-align:center; font-weight:bold;}
+.box>p{font-size:24px; text-align:center; color:#888; margin-top:19px; margin-bottom:57px;}
+.box>ul{margin:0px auto; width:100%;}
+.box>ul li{width:50%; cursor: pointer; margin:0px; height:100%; line-height:24px; color:#888; float:left; }
+.box>ul li p{text-indent:28px; line-height:24px; margin-top:16px;}
+.box>ul li span{display:block; width:100%;}
+.box>ul li>span,
+.box>ul li>p{display:none;}
+.box>ul li span:first-of-type{font-size:14px; font-weight:bold; margin-top:7px;}
+.box>ul li .teacher{position:fixed;width:100%;line-height:22px;  color:#000; top:30%; left:0px; line-height:12px; background:rgba(255,255,255,0.8); z-index: 999; display:none;}	
+.box>ul li .teacher span,
+.box>ul li .teacher p{line-height:22px;}
+}
